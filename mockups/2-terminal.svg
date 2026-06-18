@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" font-family="'JetBrains Mono','Courier New',monospace">
+  <defs>
+    <linearGradient id="tm-scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5ef38c" stop-opacity=".06"/>
+      <stop offset="100%" stop-color="#5ef38c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="#070809"/>
+  <rect x="40" y="36" width="1120" height="688" rx="10" fill="#0c0e12" stroke="#1d2630" stroke-width="1"/>
+  <!-- title bar -->
+  <rect x="40" y="36" width="1120" height="40" rx="10" fill="#11151b"/>
+  <rect x="40" y="60" width="1120" height="16" fill="#11151b"/>
+  <circle cx="64" cy="56" r="6" fill="#ff5f57"/><circle cx="86" cy="56" r="6" fill="#febc2e"/><circle cx="108" cy="56" r="6" fill="#28c840"/>
+  <text x="540" y="61" fill="#5ef38c" font-size="13" opacity=".8">malhar@portfolio — zsh</text>
+  <!-- sun/moon -->
+  <rect x="1052" y="46" width="64" height="22" rx="11" fill="#0a0c10" stroke="#28323c"/>
+  <text x="1062" y="62" fill="#febc2e" font-size="12">☀</text><text x="1092" y="62" fill="#3a4450" font-size="12">☾</text>
+  <!-- scanline overlay -->
+  <rect x="40" y="76" width="1120" height="648" fill="url(#tm-scan)"/>
+  <!-- terminal text -->
+  <g font-size="17" fill="#5ef38c">
+    <text x="72" y="130"><tspan fill="#3aa869">$</tspan> whoami</text>
+    <text x="72" y="160" fill="#cfeede">&gt; Malhar Jadhav — Software Engineer @ 247software</text>
+    <text x="72" y="206"><tspan fill="#3aa869">$</tspan> ls projects/</text>
+    <text x="72" y="236" fill="#cfeede">&gt; chat-app   ml-pipeline   dsa-vault   web-scraper</text>
+    <text x="72" y="282"><tspan fill="#3aa869">$</tspan> cat skills.txt</text>
+    <text x="72" y="312" fill="#cfeede">&gt; Java · Python · React · SQL · System Design · AI/ML</text>
+    <text x="72" y="368"><tspan fill="#3aa869">$</tspan> ai <tspan fill="#febc2e">"what's your strongest skill?"</tspan></text>
+    <text x="72" y="402" fill="#9fd9b6">&gt; Backend architecture and applied AI. I've shipped</text>
+    <text x="72" y="430" fill="#9fd9b6">  scalable services and solved 250+ DSA problems.</text>
+    <text x="72" y="460" fill="#9fd9b6">  Ask me anything else ↓</text>
+    <text x="72" y="516"><tspan fill="#3aa869">$</tspan> <tspan fill="#cfeede">_</tspan><tspan fill="#5ef38c">█</tspan></text>
+  </g>
+  <!-- project cards strip -->
+  <g>
+    <rect x="72" y="560" width="240" height="120" rx="8" fill="#10161c" stroke="#1f3a2c"/>
+    <rect x="332" y="560" width="240" height="120" rx="8" fill="#10161c" stroke="#1f3a2c"/>
+    <rect x="592" y="560" width="240" height="120" rx="8" fill="#10161c" stroke="#1f3a2c"/>
+    <text x="92" y="592" fill="#5ef38c" font-size="14">▸ chat-app</text>
+    <text x="352" y="592" fill="#5ef38c" font-size="14">▸ ml-pipeline</text>
+    <text x="612" y="592" fill="#5ef38c" font-size="14">▸ dsa-vault</text>
+    <text x="92" y="620" fill="#6f8a7c" font-size="11">React · Node · WS</text>
+    <text x="352" y="620" fill="#6f8a7c" font-size="11">Python · sklearn</text>
+    <text x="612" y="620" fill="#6f8a7c" font-size="11">Java · 250 solved</text>
+  </g>
+  <text x="40" y="748" fill="#2a3a30" font-size="12">CONCEPT 2 — TERMINAL.OS · live `ai` command · CRT phosphor</text>
+</svg>

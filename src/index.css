@@ -1,0 +1,145 @@
+/* Fonts: Newsreader + JetBrains Mono (Google) · Satoshi (Fontshare) */
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..800;1,6..72,300..700&family=JetBrains+Mono:wght@400;500;700&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* ---------- NIGHT (dark) — html.dark beats :root on specificity ---------- */
+  html.dark {
+    --background: #07070d;
+    --foreground: #e8e6f0;
+    --card: #0d0d16;
+    --card-foreground: #e8e6f0;
+    --border: #1d1f2c;
+    --input: #14141f;
+    --ring: #2dd4bf;
+    --muted: #11131c;
+    --muted-foreground: #8a87a0;
+    --primary: #2dd4bf;
+    --primary-foreground: #04201c;
+    --teal: #2dd4bf;
+    --amber: #f5b14c;
+    --violet: #a78bfa;
+    --radius: 0.9rem;
+
+    --grid-line: rgba(255, 255, 255, 0.03);
+    --star: #cfe9e4;
+    --glow: rgba(45, 212, 191, 0.25);
+  }
+
+  /* ---------- DAY (light) ---------- */
+  :root,
+  .light {
+    --background: #f3efe6;
+    --foreground: #1a1814;
+    --card: #faf7f0;
+    --card-foreground: #1a1814;
+    --border: #ddd5c4;
+    --input: #ece6d8;
+    --ring: #0d9488;
+    --muted: #e9e3d5;
+    --muted-foreground: #6b6657;
+    --primary: #0d9488;
+    --primary-foreground: #ffffff;
+    --teal: #0d9488;
+    --amber: #c2740c;
+    --violet: #7c5cdc;
+    --radius: 0.9rem;
+
+    --grid-line: rgba(26, 24, 20, 0.05);
+    --star: #5a5446;
+    --glow: rgba(13, 148, 136, 0.18);
+  }
+
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: theme("fontFamily.sans");
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    transition: background-color 0.5s ease, color 0.4s ease;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: var(--teal);
+    color: var(--background);
+  }
+}
+
+@layer components {
+  /* Blueprint / star grid backdrop */
+  .grid-bg {
+    background-image:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 64px 64px;
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+  }
+
+  .glow-teal {
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--teal) 35%, transparent),
+      0 18px 60px -22px var(--glow);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 28px var(--glow);
+  }
+
+  .aurora {
+    background:
+      radial-gradient(40% 50% at 18% 22%, color-mix(in srgb, var(--teal) 26%, transparent), transparent 70%),
+      radial-gradient(38% 44% at 82% 32%, color-mix(in srgb, var(--amber) 18%, transparent), transparent 70%),
+      radial-gradient(50% 60% at 60% 90%, color-mix(in srgb, var(--violet) 14%, transparent), transparent 70%);
+    filter: blur(8px);
+  }
+
+  /* film grain overlay */
+  .grain::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .eyebrow {
+    font-family: theme("fontFamily.mono");
+    font-size: 0.72rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--teal);
+  }
+
+  .hairline {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border) 20%, var(--border) 80%, transparent);
+  }
+}
+
+/* thin scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 99px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

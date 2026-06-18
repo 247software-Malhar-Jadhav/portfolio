@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" font-family="'Arial Black',system-ui,sans-serif">
+  <defs>
+    <radialGradient id="fx-1" cx="20%" cy="30%" r="60%"><stop offset="0%" stop-color="#c5ff2e" stop-opacity=".8"/><stop offset="100%" stop-color="#c5ff2e" stop-opacity="0"/></radialGradient>
+    <radialGradient id="fx-2" cx="80%" cy="70%" r="55%"><stop offset="0%" stop-color="#ff5470" stop-opacity=".85"/><stop offset="100%" stop-color="#ff5470" stop-opacity="0"/></radialGradient>
+    <radialGradient id="fx-3" cx="60%" cy="20%" r="50%"><stop offset="0%" stop-color="#5470ff" stop-opacity=".6"/><stop offset="100%" stop-color="#5470ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="760" fill="#080808"/>
+  <rect width="1200" height="760" fill="url(#fx-1)"/>
+  <rect width="1200" height="760" fill="url(#fx-2)"/>
+  <rect width="1200" height="760" fill="url(#fx-3)"/>
+  <rect width="1200" height="760" fill="#080808" opacity=".25"/>
+  <!-- nav -->
+  <text x="60" y="80" fill="#fff" font-size="20" font-weight="bold">M/J</text>
+  <rect x="940" y="56" width="60" height="28" rx="14" fill="#00000055" stroke="#c5ff2e"/>
+  <text x="950" y="76" fill="#c5ff2e" font-size="13">☀</text><text x="978" y="76" fill="#666" font-size="13">☾</text>
+  <rect x="1020" y="54" width="120" height="32" rx="16" fill="#c5ff2e"/><text x="1040" y="76" fill="#080808" font-size="14" font-weight="bold">Ask AI</text>
+  <!-- giant kinetic type -->
+  <text x="50" y="330" fill="#fff" font-size="170" font-weight="900" letter-spacing="-6">MALHAR</text>
+  <text x="50" y="480" fill="#080808" font-size="170" font-weight="900" letter-spacing="-6" stroke="#c5ff2e" stroke-width="2">JADHAV</text>
+  <text x="56" y="540" fill="#ff5470" font-size="26" font-weight="bold" letter-spacing="6">SOFTWARE / AI / SYSTEMS</text>
+  <!-- remix button -->
+  <rect x="56" y="600" width="240" height="58" rx="29" fill="#ff5470"/>
+  <text x="92" y="637" fill="#080808" font-size="20" font-weight="bold">⟳  remix vibe</text>
+  <text x="320" y="637" fill="#aaa" font-size="14" font-weight="normal">← AI regenerates hero each visit</text>
+  <!-- custom cursor hint -->
+  <circle cx="960" cy="430" r="26" fill="none" stroke="#c5ff2e" stroke-width="2"/><circle cx="960" cy="430" r="4" fill="#c5ff2e"/>
+  <text x="40" y="730" fill="#444" font-size="12" font-family="monospace">CONCEPT 4 — FLUX · AI-regenerated hero · maximalist kinetic type</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" font-family="system-ui,sans-serif">
+  <defs>
+    <radialGradient id="at-bg" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#121823"/><stop offset="100%" stop-color="#0d1117"/></radialGradient>
+    <radialGradient id="at-node" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#56d4dd"/><stop offset="100%" stop-color="#1c6e74"/></radialGradient>
+    <pattern id="at-dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#1c2733"/></pattern>
+  </defs>
+  <rect width="1200" height="760" fill="#0d1117"/>
+  <rect x="24" y="24" width="1152" height="712" rx="14" fill="url(#at-bg)" stroke="#1c2733"/>
+  <rect x="24" y="24" width="1152" height="712" rx="14" fill="url(#at-dots)"/>
+  <!-- top bar -->
+  <text x="56" y="72" fill="#56d4dd" font-size="18" font-weight="bold">◍ ATLAS</text>
+  <rect x="430" y="50" width="340" height="34" rx="17" fill="#10161e" stroke="#2a3a48"/>
+  <text x="452" y="72" fill="#6b7a8a" font-size="14">⌕  "show me his ML work"</text>
+  <rect x="980" y="52" width="60" height="28" rx="14" fill="#10161e" stroke="#2a3a48"/><text x="990" y="71" fill="#56d4dd" font-size="13">☾</text><text x="1018" y="71" fill="#5a6675" font-size="13">☀</text>
+  <!-- edges -->
+  <g stroke="#2a4a52" stroke-width="2">
+    <line x1="600" y1="400" x2="380" y2="250"/><line x1="600" y1="400" x2="820" y2="250"/>
+    <line x1="600" y1="400" x2="350" y2="500"/><line x1="600" y1="400" x2="850" y2="520"/>
+    <line x1="600" y1="400" x2="600" y2="600"/><line x1="380" y1="250" x2="350" y2="500"/>
+  </g>
+  <g stroke="#56d4dd" stroke-width="2.5" opacity=".9"><line x1="600" y1="400" x2="850" y2="520"/></g>
+  <!-- nodes -->
+  <g font-size="14" fill="#dbe6f0" text-anchor="middle">
+    <circle cx="600" cy="400" r="44" fill="url(#at-node)"/><text x="600" y="405" fill="#06222400" font-weight="bold">YOU</text><text x="600" y="405" fill="#04181a" font-weight="bold">YOU</text>
+    <circle cx="380" cy="250" r="30" fill="#16202c" stroke="#39505f"/><text x="380" y="255">React</text>
+    <circle cx="820" cy="250" r="30" fill="#16202c" stroke="#39505f"/><text x="820" y="255">Backend</text>
+    <circle cx="350" cy="500" r="30" fill="#16202c" stroke="#39505f"/><text x="350" y="505">Java</text>
+    <circle cx="850" cy="520" r="34" fill="#16202c" stroke="#56d4dd"/><text x="850" y="525" fill="#56d4dd">AI / ML</text>
+    <circle cx="600" cy="600" r="30" fill="#16202c" stroke="#39505f"/><text x="600" y="605">LeetCode</text>
+    <circle cx="1010" cy="380" r="26" fill="#16202c" stroke="#39505f"/><text x="1010" y="385" font-size="12">Projects</text>
+  </g>
+  <!-- minimap -->
+  <rect x="980" y="600" width="170" height="110" rx="8" fill="#10161e" stroke="#2a3a48"/>
+  <text x="996" y="624" fill="#5a6675" font-size="11">minimap</text>
+  <circle cx="1060" cy="665" r="5" fill="#56d4dd"/><circle cx="1030" cy="650" r="3" fill="#39505f"/><circle cx="1090" cy="680" r="3" fill="#39505f"/>
+  <!-- narration -->
+  <rect x="56" y="620" width="330" height="90" rx="10" fill="#10161e" stroke="#2a3a48"/>
+  <text x="76" y="650" fill="#56d4dd" font-size="12" font-weight="bold">AI NAVIGATOR</text>
+  <text x="76" y="676" fill="#aebccb" font-size="12.5">Panning to ML cluster — highlighting</text>
+  <text x="76" y="695" fill="#aebccb" font-size="12.5">2 projects &amp; relevant skills. ▌</text>
+  <text x="40" y="748" fill="#33414f" font-size="12" font-family="monospace">CONCEPT 5 — ATLAS · semantic AI navigator · zoomable node map</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" font-family="Georgia,'Times New Roman',serif">
+  <rect width="1200" height="760" fill="#cfc6b4"/>
+  <rect x="40" y="30" width="1120" height="700" fill="#efe9dd" stroke="#c9bfa8"/>
+  <!-- masthead -->
+  <text x="600" y="92" text-anchor="middle" fill="#16140f" font-size="52" font-weight="bold" letter-spacing="2">THE MALHAR DISPATCH</text>
+  <line x1="80" y1="112" x2="1120" y2="112" stroke="#16140f" stroke-width="2"/>
+  <line x1="80" y1="118" x2="1120" y2="118" stroke="#16140f" stroke-width="1"/>
+  <text x="80" y="138" fill="#7a7058" font-size="13" font-family="sans-serif">VOL. 1 — SOFTWARE ENGINEER</text>
+  <text x="1120" y="138" text-anchor="end" fill="#ff4d2e" font-size="13" font-family="sans-serif">EST. 2026 · PUNE, IN</text>
+  <!-- sun/moon -->
+  <rect x="540" y="124" width="60" height="20" rx="10" fill="#e2dac9" stroke="#b6ab92"/>
+  <text x="548" y="139" fill="#ff4d2e" font-size="11">☀</text><text x="578" y="139" fill="#9a8f78" font-size="11">☾</text>
+  <!-- headline -->
+  <text x="80" y="210" fill="#16140f" font-size="44" font-weight="bold">Engineer turns coffee</text>
+  <text x="80" y="258" fill="#16140f" font-size="44" font-weight="bold">into distributed systems</text>
+  <line x1="80" y1="280" x2="1120" y2="280" stroke="#16140f" stroke-width="1"/>
+  <!-- portrait -->
+  <rect x="80" y="310" width="300" height="340" fill="#d8cfba" stroke="#16140f"/>
+  <g stroke="#b3a98f"><line x1="80" y1="330" x2="380" y2="330"/><line x1="80" y1="360" x2="380" y2="360"/><line x1="80" y1="390" x2="380" y2="390"/><line x1="80" y1="420" x2="380" y2="420"/><line x1="80" y1="450" x2="380" y2="450"/><line x1="80" y1="480" x2="380" y2="480"/><line x1="80" y1="510" x2="380" y2="510"/><line x1="80" y1="540" x2="380" y2="540"/><line x1="80" y1="570" x2="380" y2="570"/><line x1="80" y1="600" x2="380" y2="600"/><line x1="80" y1="630" x2="380" y2="630"/></g>
+  <text x="230" y="485" text-anchor="middle" fill="#7a7058" font-size="14" font-family="sans-serif">[ portrait ]</text>
+  <!-- columns -->
+  <text x="420" y="332" fill="#16140f" font-size="64" font-weight="bold" font-style="italic">M</text>
+  <g fill="#2a2620" font-size="13.5">
+    <text x="466" y="320">alhar Jadhav builds soft-</text>
+    <text x="420" y="342">ware that scales. From back-</text>
+    <text x="420" y="364">end services to applied AI,</text>
+    <text x="420" y="386">his work spans the stack with</text>
+    <text x="420" y="408">a craftsman's attention.</text>
+    <text x="420" y="438">A prolific problem-solver,</text>
+    <text x="420" y="460">he has cleared 250+ algo-</text>
+    <text x="420" y="482">rithmic challenges and writes</text>
+    <text x="420" y="504">on Medium about the craft.</text>
+  </g>
+  <g fill="#2a2620" font-size="13.5">
+    <text x="760" y="320">"The best systems disappear,"</text>
+    <text x="760" y="342">he says. His portfolio reads</text>
+    <text x="760" y="364">like a newspaper — and re-</text>
+    <text x="760" y="386">writes itself for each reader.</text>
+  </g>
+  <!-- AI reader selector -->
+  <rect x="760" y="430" width="320" height="220" rx="6" fill="#16140f"/>
+  <text x="784" y="464" fill="#ff4d2e" font-size="13" font-family="sans-serif">✶ AI EDITOR</text>
+  <text x="784" y="494" fill="#efe9dd" font-size="14" font-family="sans-serif">Reading as:</text>
+  <rect x="784" y="508" width="160" height="34" rx="4" fill="#ff4d2e"/><text x="800" y="531" fill="#16140f" font-size="14" font-family="sans-serif" font-weight="bold">▸ Recruiter ▾</text>
+  <text x="784" y="576" fill="#cabfa9" font-size="12" font-family="sans-serif">Page re-summarized &amp; projects</text>
+  <text x="784" y="596" fill="#cabfa9" font-size="12" font-family="sans-serif">re-ordered for your role. ▌</text>
+  <text x="40" y="748" fill="#9a8f78" font-size="12" font-family="monospace">CONCEPT 3 — DISPATCH · audience-adaptive AI editor · print magazine</text>
+</svg>
